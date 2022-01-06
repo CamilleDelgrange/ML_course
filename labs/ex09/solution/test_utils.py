@@ -30,7 +30,7 @@ def test(f):
             np.random.set_state(orig_rng_state)
 
         if results.failed > 0:
-            print(f"❌ The are some issues with your implementation of `{f.__name__}`:")
+            print(f"❌ There are some issues with your implementation of `{f.__name__}`:")
             print(output, end="")
             print("**********************************************************************")
         elif results.attempted > 0:
